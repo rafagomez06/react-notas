@@ -53,7 +53,8 @@ const ListaTareas = ({tareas, cambiarTareas, mostrarCompletadas}) => {
 				// Si ya esta completada no la devolvemos
 				return '' ;
 			})
-			:<div className="lista-tareas__mensaje">~ No hay notas agregadas ~</div>
+			:<div className="lista-tareas__mensaje"><h3>~ No hay notas agregadas ~ </h3><p>by RG</p></div> 
+				
 			}
 		</ul>
 	);
