@@ -25,7 +25,7 @@ const ListaTareas = ({tareas, cambiarTareas, mostrarCompletadas}) => {
 			if(tarea.id !== id){
 				return tarea;
 			}
-			return;
+			return '';
 		}));
 	}
 
@@ -51,9 +51,9 @@ const ListaTareas = ({tareas, cambiarTareas, mostrarCompletadas}) => {
 							/>
 				}
 				// Si ya esta completada no la devolvemos
-				return;
+				return '' ;
 			})
-			:<div className="lista-tareas__mensaje">~ No hay tareas agregadas ~</div>
+			:<div className="lista-tareas__mensaje">~ No hay notas agregadas ~</div>
 			}
 		</ul>
 	);

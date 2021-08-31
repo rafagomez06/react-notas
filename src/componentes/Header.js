@@ -9,7 +9,7 @@ const Header = ({mostrarCompletadas, cambiarMostrarCompletadas}) => {
 
 	return (
 		<header className="header">
-			<h1 className="header__titulo">Lista de Tareas</h1>
+			<h1 className="header__titulo">App Lista de Notas</h1>
 			{mostrarCompletadas ?
 				<button 
 					className="header__boton"

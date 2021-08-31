@@ -31,7 +31,7 @@ const FormularioTareas = ({tareas, cambiarTareas}) => {
 			<input
 				type="text"
 				className="formulario-tareas__input"
-				placeholder="Escribe una tarea"
+				placeholder="Escribe una nota"
 				value={inputTarea}
 				onChange={(e) => handleInput(e)}
 			/>
