@@ -135,8 +135,8 @@
 
 .lista-tareas__icono-accion {
 	margin-left: 20px;
-	opacity: 0;
-	transition: .3s ease all;
+	/* opacity: 0;
+	transition: .3s ease all; */
 }
 
 .lista-tareas__mensaje {
